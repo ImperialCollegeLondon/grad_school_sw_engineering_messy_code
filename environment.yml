@@ -1,8 +1,6 @@
 name: course
 dependencies:
   - python==3.12
-  - flake8
-  - pylint
-  - black
+  - ruff
   - mypy
   - requests
