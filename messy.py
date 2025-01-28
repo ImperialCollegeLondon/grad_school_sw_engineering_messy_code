@@ -5,10 +5,9 @@ class foo  (     object  ):
    def f    (self   ):
        z =3
        return       y **2
-   def g(self, x,
+   def g(self, x, # noqa: D102
        y=42
        ):
-      # pylint: disable=missing-docstring
       return x--y
 def f  (   a ) :
-   return      37+-a[42-a :  y*3]  # noqa: E203
+   return      37+-a[42-a :  y*3]
